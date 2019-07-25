@@ -108,10 +108,30 @@ function doThis() {
         }
     });
 };
-// var spotifyKeys = new Spotify({
-//     id: process.env.SPOTIFY_ID,
-//     secret: process.env.SPOTIFY_SECRET
-// });
+
+// I keep getting this error
+// I have tried to get help through google, github, stackoverflow
+// I don't seem to get it working.
+
+// dawit@DawitZeru MINGW64 ~/Desktop/BCHomeworks/liri-node-app (master)
+// $ node liri.js do-what-it-says
+// internal/modules/cjs/loader.js:583
+//     throw err;
+//     ^
+
+// Error: Cannot find module 'dotenvy'
+//     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+//     at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+//     at Module.require (internal/modules/cjs/loader.js:637:17)
+//     at require (internal/modules/cjs/helpers.js:22:18)
+//     at Object.<anonymous> (c:\Users\dawit\Desktop\BCHomeworks\liri-node-app\liri.js:1:63)
+//     at Module._compile (internal/modules/cjs/loader.js:689:30)
+//     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+//     at Module.load (internal/modules/cjs/loader.js:599:32)
+//     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+//     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+
+// dawit@DawitZeru MINGW64 ~/Desktop/BCHomeworks/liri-node-app (master)
 
 
 
